@@ -47,11 +47,8 @@ public class Users {
   @AfterMethod
   public void afterMethod() {
 	  driver.findElement(By.xpath("html/body/div[1]/div/md-sidenav/md-list[1]/md-list-item/span[2]/button")).click();
-  
-	  
   }
-
-
+  
   @AfterClass
   public void afterClass() {
 	  driver.quit();
