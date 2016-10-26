@@ -3,7 +3,6 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="Negativeburpp.BurppLoginEXcel"/>
       <class name="Negativeburpp.Settings"/>
       <class name="Negativeburpp.Bills"/>
       <class name="Negativeburpp.Salesreport"/>
