@@ -5,8 +5,6 @@
     <classes>
       <class name="Negativeburpp.Settings"/>
       <class name="Negativeburpp.Bills"/>
-      <class name="Negativeburpp.Salesreport"/>
-      <class name="Negativeburpp.Products"/>
       <class name="Negativeburpp.Users"/>
       <class name="Negativeburpp.Burpplogin"/>
     </classes>

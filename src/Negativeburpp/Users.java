@@ -35,9 +35,9 @@ public class Users {
   @Test
   public void f() throws InterruptedException {
 	  driver.findElement(By.xpath("//md-list-item[text()='Users']")).click();
-	    driver.findElement(By.xpath("//md-icon[@md-svg-src='media/icons/ic_edit_18px.svg']")).click();
+	   // driver.findElement(By.xpath("//md-icon[@md-svg-src='media/icons/ic_edit_18px.svg']")).click();
 	  //  driver.findElement(By.xpath("//div[@class='md-container']")).click();
-	    driver.findElement(By.xpath("//span[text()='Save']")).click();
+	    //driver.findElement(By.xpath("//span[text()='Save']")).click();
 	    Thread.sleep(2000);
       driver.findElement(By.xpath("//input[@ng-model='search.UserName']")).sendKeys("Preethi");
 	}
